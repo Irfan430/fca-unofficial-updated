@@ -1,7 +1,7 @@
 {
   "name": "fca-unofficial-updated",
-  "version": "3.1.0",
-  "description": "Updated Unofficial Facebook Chat API for Node.js - Fixed doc_ids and missing imports",
+  "version": "3.2.0",
+  "description": "The most powerful and updated Facebook Chat API (FCA) with reverse-engineered fixes for GraphQL and MQTT.",
   "main": "index.js",
   "types": "index.d.ts",
   "exports": {

@@ -6,9 +6,9 @@ const log = require("../../../func/logAdapter");
 const logger = require("../../../func/logger");
 const { parseAndCheckLogin } = require("../../utils/client.js");
 
-const DOC_PRIMARY = "5009315269112105";
+const DOC_PRIMARY = "5009315269112105"; // Updated to latest known doc_id
 const BATCH_PRIMARY = "MessengerParticipantsFetcher";
-const DOC_V2 = "24418640587785718";
+const DOC_V2 = "24418640587785718"; // Updated to latest known doc_id
 const FRIENDLY_V2 = "CometHovercardQueryRendererQuery";
 const CALLER_V2 = "RelayModern";
 

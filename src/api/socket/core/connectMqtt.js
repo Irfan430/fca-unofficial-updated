@@ -43,7 +43,8 @@ module.exports = function createListenMqtt(deps) {
     const username = {
       u: ctx.userID, s: sessionID, chat_on: chatOn, fg: false, d: ctx.clientId,
       ct: "websocket", aid: 219994525426954, aids: null, mqtt_sid: "",
-      cp: 3, ecp: 10, st: [], pm: [], dc: "", no_auto_fg: true, gas: null, pack: [], p: null, php_override: ""
+      cp: 3, ecp: 10, st: [], pm: [], dc: "", no_auto_fg: true, gas: null, pack: [], p: null, php_override: "",
+      client_stack: "chat_on_comet" // Added for better compatibility with Comet interface
     };
 
     const cookies = api.getCookies();
@@ -62,7 +63,7 @@ module.exports = function createListenMqtt(deps) {
         headers: {
           Cookie: cookies,
           Origin: "https://www.facebook.com",
-          "User-Agent": ctx.globalOptions.userAgent || "Mozilla/5.0",
+          "User-Agent": ctx.globalOptions.userAgent || "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
           Referer: "https://www.facebook.com/",
           Host: "edge-chat.facebook.com",
           Connection: "Upgrade",

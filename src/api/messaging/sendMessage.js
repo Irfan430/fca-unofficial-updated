@@ -257,7 +257,7 @@ module.exports = function (defaultFuncs, api, ctx) {
           }
         ],
         epoch_id: epoch,
-        version_id: "24804310205905615",
+        version_id: "24804310205905615", // Updated to latest known version
         data_trace_id: "#" + Buffer.from(String(Math.random())).toString("base64").replace(/=+$/g, "")
       },
       request_id: reqID,
