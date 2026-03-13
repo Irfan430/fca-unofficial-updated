@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const logger = require("../func/logger");
 const defaultConfig = {
-  autoUpdate: true,
+  autoUpdate: false,
   mqtt: { enabled: true, reconnectInterval: 3600 },
   autoLogin: true,
   apiServer: "https://minhdong.site",

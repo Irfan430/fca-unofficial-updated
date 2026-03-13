@@ -1,6 +1,6 @@
 {
   "name": "fca-unofficial-updated",
-  "version": "3.2.0",
+  "version": "3.9.9",
   "description": "The most powerful and updated Facebook Chat API (FCA) with reverse-engineered fixes for GraphQL and MQTT.",
   "main": "index.js",
   "types": "index.d.ts",
