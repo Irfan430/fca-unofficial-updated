@@ -1,7 +1,7 @@
 {
-  "name": "@dongdev/fca-unofficial",
-  "version": "3.0.31",
-  "description": "Unofficial Facebook Chat API for Node.js - Interact with Facebook Messenger programmatically",
+  "name": "fca-unofficial-updated",
+  "version": "3.1.0",
+  "description": "Updated Unofficial Facebook Chat API for Node.js - Fixed doc_ids and missing imports",
   "main": "index.js",
   "types": "index.d.ts",
   "exports": {
@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dongp06/fca-unofficial.git"
+    "url": "git+https://github.com/Irfan430/fca-unofficial-updated.git"
   },
   "keywords": [
     "facebook",
@@ -46,20 +46,14 @@
     "fca"
   ],
   "author": {
-    "name": "DongDev",
-    "url": "https://www.facebook.com/mdong.dev"
+    "name": "Irfan430",
+    "url": "https://github.com/Irfan430"
   },
-  "contributors": [
-    {
-      "name": "DongDev",
-      "url": "https://github.com/dongp06"
-    }
-  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dongp06/fca-unofficial/issues"
+    "url": "https://github.com/Irfan430/fca-unofficial-updated/issues"
   },
-  "homepage": "https://github.com/dongp06/fca-unofficial#readme",
+  "homepage": "https://github.com/Irfan430/fca-unofficial-updated#readme",
   "engines": {
     "node": ">=12.0.0"
   },
